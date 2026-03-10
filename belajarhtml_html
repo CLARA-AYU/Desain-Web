@@ -1,0 +1,41 @@
+<!doctype html>
+<hmtl lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>belajar</html></title>
+ </head>
+ <body>
+    <h1>belajar hmtl day 1 </h1>
+ </body>
+</hmtl>
+
+contoh2
+
+<!doctype html>
+<hmtl lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=decive-width, intitial-scale=1.0">
+    <title>Halaman Pertama</title>
+ </head>
+ <body>
+    <h1>Mahasiswa STIKOM BWI Belajar HTML</h1>
+    <p>Ini tag untuk membuat paragraf</p>
+ </body>
+</hmtl>
+
+contoh3 men bold dan italic tulisan
+
+<!doctype html>
+<hmtl lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=decive-width, intitial-scale=1.0">
+    <title>Halaman Pertama</title>
+ </head>
+ <body>
+    <h1><i>Mahasiswa STIKOM BWI Belajar HTML</i></h1>
+    <p><b>Ini tag untuk membuat paragraf</b></p>
+ </body>
+</hmtl>
