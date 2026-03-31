@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Clara</title>
+</head>
+<body>
+
+<header>
+    <h1>Logo BlogClara</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Tentang</a>
+        <a href="#">Kontak</a>
+    </nav>
+</header>
+
+<main>
+
+    <article>
+        <h2>Pentingnya Tidur Berkualitas</h2>
+        <p>Diposting pada 1 Januari 2026</p>
+        <p>Tidur yang cukup dan berkualitas sangat penting untuk menjaga kesehatan tubuh secara keseluruhan.</p>
+    </article>
+
+    <article>
+        <h2>AI dalam Kehidupan Sehari-hari</h2>
+        <p>Diposting pada 5 Januari 2026</p>
+        <p>Kecerdasan Buatan atau Artificial Intelligence (AI) kini bukan lagi teknologi masa depan, melainkan bagian dari rutinitas harian.</p>
+    </article>
+
+    <article>
+        <h2>Bahaya Sampah Plastik</h2>
+        <p>Diposting pada 10 Januari 2026</p>
+        <p>Sampah plastik menjadi masalah serius bagi lingkungan karena sifatnya yang sulit terurai.</p>
+    </article>
+
+    <aside>
+        <h3>Artikel Populer</h3>
+        <ul>
+            <li><a href="#">Tutorial Mengobrol dengan Kucing: Dijamin Paham</a></li>
+            <li><a href="#">Cara Membuat Visa Korea Selatan yang Simpel dan Cepat</a></li>
+            <li><a href="#">Pentingnya Pendidikan Karakter di Sekolah</a></li>
+        </ul>
+    </aside>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 BlogKu. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
