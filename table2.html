@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Daftar Harga Produk</title>
+
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-weight: bold;
+            font-size: 25px;
+            margin-bottom: 10px;
+    
+        }
+        th {
+            background-color: pink;
+            color: white;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .promo {
+            background-color: #f3e5ab;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Daftar Harga Produk</caption>
+
+        <tr>
+            <th>Kategori</th>
+            <th>Produk</th>
+            <th>Harga</th>
+        </tr>
+
+        <tr>
+            <td rowspan="4">Kosmetik</td>
+            <td>Lipstik</td>
+            <td>Rp 80.000</td>
+        </tr>
+
+        <tr>
+            <td>Cushion</td>
+            <td>Rp 70.000</td>
+        </tr>
+
+        <tr>
+            <td>Powder</td>
+            <td>Rp 50.000</td>
+        </tr>
+
+        <tr>
+            <td>Blush</td>
+            <td>Rp 40.000</td>
+        </tr>
+
+        <tr class="promo">
+            <td colspan="2">Paket Bundling (Lipstik + Cushion)</td>
+            <td>Rp 120.000</td>
+        </tr>
+
+        <tr class="promo">
+            <td colspan="2">Paket Bundling (Powder + Blush)</td>
+            <td>Rp 75.000</td>
+        </tr>
+
+    </table>
+</body>
+</html>
