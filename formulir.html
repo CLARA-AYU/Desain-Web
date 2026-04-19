@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pendaftaran IT Developer</title>
+</head>
+<body>
+
+<h2>Form Pendaftaran IT Developer miHoYo</h2>
+<p>Silakan isi data berikut untuk melamar posisi di miHoYo.</p>
+
+<form method="post" enctype="multipart/form-data">
+
+    <fieldset>
+        <legend>Data Pribadi</legend>
+
+        Nama Lengkap:<br>
+        <input type="text" name="nama" required><br><br>
+
+        Email:<br>
+        <input type="email" name="email" required><br><br>
+
+        Nomor HP:<br>
+        <input type="text" name="hp"><br><br>
+
+        Tanggal Lahir:<br>
+        <input type="date" name="tgl_lahir"><br><br>
+
+        Jenis Kelamin:<br>
+        <input type="radio" name="gender" value="Pria"> Pria
+        <input type="radio" name="gender" value="Wanita"> Wanita
+        <br><br>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Data Profesional</legend>
+
+        Posisi Yang Diinginkan:<br>
+      <select name="posisi">
+            <option>-- Pilih Posisi --</option>
+            <option>Game Developer</option>
+            <option>Frontend Developer</option>
+            <option>Backend Developer</option>
+            <option>UI/UX Designer</option>
+      </select><br><br>
+
+       Game Favorit miHoYo:<br>
+        <input type="checkbox" name="game" value="Genshin"> Genshin Impact
+        <input type="checkbox" name="game" value="Honkai"> Honkai Star Rail
+        <br><br>
+
+        Upload CV:<br>
+        <input type="file" name="cv"><br><br>
+
+        Tentang Anda:<br>
+        <textarea name="deskripsi" placeholder="Ceritakan tentang diri Anda..."></textarea>
+    </fieldset>
+
+    <br>
+
+    <input type="submit" value="Kirim Lamaran">
+    <input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
