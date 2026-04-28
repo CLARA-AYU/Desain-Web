@@ -1,68 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Form Pendaftaran IT Developer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulir</title>
 </head>
+
 <body>
+<header>
+    <h2>Form Pemesanan Produk Unggulan Dapur Melted</h2>
+</header>
 
-<h2>Form Pendaftaran IT Developer miHoYo</h2>
-<p>Silakan isi data berikut untuk melamar posisi di miHoYo.</p>
+<nav>
+    <a href="homepage.html">Beranda</a> |
+    <a href="galeri.html">Galeri</a> |
+    <a href="formulir.html">Formulir</a>
+</nav>
 
-<form method="post" enctype="multipart/form-data">
-
+<main>
+<section>
+<form action="#" method="post" enctype="multipart/form-data" onsubmit="alert('Pesanan berhasil dikirim!')">
     <fieldset>
-        <legend>Data Pribadi</legend>
+        <legend>Data Pembeli</legend>
 
         Nama Lengkap:<br>
-        <input type="text" name="nama" required><br><br>
+        <input type="text" placeholder="Masukkan nama lengkap" required><br><br>
 
         Email:<br>
-        <input type="email" name="email" required><br><br>
+        <input type="email" placeholder="Masukkan email" required><br><br>
 
         Nomor HP:<br>
-        <input type="text" name="hp"><br><br>
-
-        Tanggal Lahir:<br>
-        <input type="date" name="tgl_lahir"><br><br>
+        <input type="text" placeholder="Masukkan nomor hp"><br><br>
 
         Jenis Kelamin:<br>
-        <input type="radio" name="gender" value="Pria"> Pria
-        <input type="radio" name="gender" value="Wanita"> Wanita
+        <input type="radio" name="gender"> Laki-laki
+        <input type="radio" name="gender"> Perempuan
         <br><br>
     </fieldset>
 
     <br>
 
+   
     <fieldset>
-        <legend>Data Profesional</legend>
+        <legend>Data Pesanan</legend>
 
-        Posisi Yang Diinginkan:<br>
-      <select name="posisi">
-            <option>-- Pilih Posisi --</option>
-            <option>Game Developer</option>
-            <option>Frontend Developer</option>
-            <option>Backend Developer</option>
-            <option>UI/UX Designer</option>
-      </select><br><br>
+        Pilih Produk:<br>
+        <select>
+            <option>-- Pilih Produk --</option>
+            <option>Dubai Chewy Cookies</option>
+            <option>Saltbread Pistachio Kunafa</option>
+            <option>Mochi</option>
+            <option>Goguma ppang</option>
+        </select><br><br>
 
-       Game Favorit miHoYo:<br>
-        <input type="checkbox" name="game" value="Genshin"> Genshin Impact
-        <input type="checkbox" name="game" value="Honkai"> Honkai Star Rail
+        Tambahan Topping:<br>
+        <input type="checkbox"> Keju
+        <input type="checkbox"> Coklat
+        <input type="checkbox"> Tanpa tambahan toping
         <br><br>
 
-        Upload CV:<br>
-        <input type="file" name="cv"><br><br>
+        Upload Bukti Pembayaran:<br>
+        <input type="file"><br><br>
 
-        Tentang Anda:<br>
-        <textarea name="deskripsi" placeholder="Ceritakan tentang diri Anda..."></textarea>
+        Catatan:<br>
+        <textarea placeholder="Tulis pesan atau request khusus..."></textarea>
     </fieldset>
 
     <br>
 
-    <input type="submit" value="Kirim Lamaran">
+    <input type="submit" value="Kirim Pesanan">
     <input type="reset" value="Reset">
 
 </form>
+
+</section>
+</main>
+
+<footer>
+    <p>&copy; 2026 dapurmelted</p>
+</footer>
 
 </body>
 </html>
